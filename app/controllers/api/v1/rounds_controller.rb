@@ -18,6 +18,6 @@ class Api::V1::RoundsController < ApplicationController
   private
 
   def round_params
-    params.require(:round).permit(:level, :challenge, :background_image)
+    params.require(:round).permit(:level, :challenge, :background_image, :hint, :solution)
   end
 end
