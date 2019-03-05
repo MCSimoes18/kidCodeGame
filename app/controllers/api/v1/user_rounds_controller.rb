@@ -14,6 +14,12 @@ class Api::V1::UserRoundsController < ApplicationController
     render json: @user_round, status: :created
   end
 
+  def update
+    @user_round = UserRound.find(params[:id])
+    @user_round = UserRound.update(user_round_params)
+    render json: @user_round, status: :OK
+  end
+
 
   private
 
