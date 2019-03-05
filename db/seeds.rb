@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Round.create(level: 1, challenge: "Can you write a function to add two numbers?")
+Round.create(level: 1, challenge: "Can you write a function to add two numbers?", background_image: 'https://img.freepik.com/free-vector/cartoon-background-with-empty-classroom-interior-inside_1441-1735.jpg?size=626&ext=jpg')
