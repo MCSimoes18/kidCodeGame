@@ -16,7 +16,7 @@ class Api::V1::UserRoundsController < ApplicationController
 
   def update
     @user_round = UserRound.find(params[:id])
-    @user_round = UserRound.update(user_round_params)
+    @user_round.update(user_round_params)
     render json: @user_round, status: :OK
   end
 
