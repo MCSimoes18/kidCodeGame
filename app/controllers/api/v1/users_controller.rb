@@ -17,7 +17,7 @@ end
 
 def update
   @user = User.find(params[:id])
-  @user = User.update(user_params)
+  @user.update(user_params)
   render json: @user, status: :ok
 end
 
