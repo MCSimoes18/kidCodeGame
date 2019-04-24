@@ -6,6 +6,13 @@ A project created during our time at the [Flatiron School](https://flatironschoo
 
 ![](https://media.giphy.com/media/g04AH1QpwcCEOTnaNw/giphy.gif)
 
+## TECHNOLOGIES
+- Vanilla Javascript
+- Ruby on Rails
+- Custom Chai Test Suite
+- Code Mirror Text Editor
+- Custom CSS
+
 ## DESCRIPTION
 SUPERscript is a game, created by Sivan Adler and Maria Cristina Simoes, that is designed to help teach children how to code in Javascript. SUPERscript is built on a Vanilla Javascript front-end, a Ruby on Rails back-end and a custom Chai Test Suite. Upon login, a user will be prompted by a challenge that is specific to each level. Below that challenge is a text editor, where the user will be prompted to fill in the missing line of code to pass the challenge for that level. Upon submit, the text editor executes the code that the user wrote and our custom Chai test suite checks if its return value matches that of the challenge at hand. Users are also able to click the 'hint' button to recieve a clue, or click the 'solution' button to see what the correct answer is for that level. 
 
